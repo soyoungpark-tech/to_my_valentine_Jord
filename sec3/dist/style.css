@@ -125,9 +125,10 @@ a:hover {
   background-color: #ff6f61; /* 예쁜 분홍색 */
   color: #fff;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 14px;
   border-radius: 25px;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  font-family: 'HakgyoansimChilpanjiugaeTTF-B', sans-serif; /* 폰트를 적용 */
 }
 
 /* 버튼 호버 시 효과 */
@@ -137,6 +138,7 @@ a:hover {
   position: absolute;
   bottom: 13%;
   right: 10%;
+  font-family: 'HakgyoansimChilpanjiugaeTTF-B', sans-serif; /* 폰트를 적용 */
 }
 
 /* 제목 스타일 */
@@ -145,7 +147,9 @@ h1 {
   font-size: 2rem;
   margin-bottom: 10px;
   font-family: 'HakgyoansimChilpanjiugaeTTF-B', sans-serif; /* 폰트를 적용 */
-  left: 6%;
+  /* left: 6%;
   position: absolute; 
-  top: 3%;
+  top: 3%; */
+  text-align: center;
+  margin-top: 100px;
 }
