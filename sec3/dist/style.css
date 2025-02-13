@@ -1,6 +1,13 @@
 * {
 	box-sizing: border-box;
 }
+/* 폰트 적용 */
+@font-face {
+  font-family: 'HakgyoansimChilpanjiugaeTTF-B';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimChilpanjiugaeTTF-B.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
 body {
 	background: #FFF0F5;
 	min-height: 100vh;
@@ -135,4 +142,13 @@ a:hover {
   position: absolute;
   bottom: 13%;
   right: 10%;
+}
+
+/* 제목 스타일 */
+h1 {
+  color: #ff4d3b; /* 빨간색 */
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'HakgyoansimChilpanjiugaeTTF-B', sans-serif; /* 폰트를 적용 */
+  left: 6%;
 }
