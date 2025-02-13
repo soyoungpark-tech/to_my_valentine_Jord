@@ -1,6 +1,14 @@
 * {
 	box-sizing: border-box;
 }
+
+body {
+  overflow-x: hidden !important;
+}
+
+html {
+  overflow-x :  hidden !important;
+}
 /* 폰트 적용 */
 @font-face {
   font-family: 'HakgyoansimChilpanjiugaeTTF-B';
