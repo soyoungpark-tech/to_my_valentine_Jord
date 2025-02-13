@@ -25,7 +25,7 @@ const spacing = 0.1,    // spacing of the cards (stagger)
 				self.wrapping = false;
 			}
 		},
-		end: "+=3000",
+		end: "+=300",
 		pin: ".gallery"
 	});
 
