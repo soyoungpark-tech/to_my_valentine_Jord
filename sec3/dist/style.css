@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-	background: #111;
+	background: #FFF0F5;
 	min-height: 100vh;
 	padding: 0;
 	margin: 0;
@@ -32,7 +32,7 @@ body {
 	text-align: center;
 	line-height: 18rem;
 	font-size: 2rem;
-	font-family: sans-serif;
+	font-family: 'HakgyoansimChilpanjiugaeTTF-B', sans-serif; /* 폰트를 적용 */
 	/* background-color: #9d7cce; */
 	position: absolute;
 	top: 0;
@@ -75,7 +75,7 @@ button {
   -moz-border-radius: 4;
   border-radius: 4px;
   padding: 12px 25px;
-  font-family: "Signika Negative", sans-serif;
+  font-family: 'HakgyoansimChilpanjiugaeTTF-B', sans-serif; /* 폰트를 적용 */
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
@@ -109,4 +109,30 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+
+.next-page-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ff6f61; /* 예쁜 분홍색 */
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* 버튼 호버 시 효과 */
+.next-page-button:hover {
+  background-color: #ff4d3b; /* 어두운 분홍색 */
+  transform: scale(1.1); /* 크기 살짝 확대 */
+}
+
+.sec3-button-container {
+  margin-top: 30px;
+  text-align: center;
+  position: absolute;
+  bottom: 13%;
+  right: 10%;
 }
