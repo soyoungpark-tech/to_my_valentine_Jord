@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3, user-scalable=yes">
+    <title>❤HELLO MY LOVE❤</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Anton'>
+    <link rel="stylesheet" href="css013/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- <div class="pic_container">
+        <img src="/images/KakaoTalk_Image_2025-02-13-12-52-49_002.jpeg" alt="">
+    </div> -->
+    <div class="container">
+        <h1>To my valentine Jord</h1>
+        <p>From 소영 ❤</p>
+        
+        <!-- 비밀번호 입력 필드 -->
+        <input type="text" id="password" maxlength="4" placeholder="Enter Our anniversary" readonly />
+        
+        <!-- 계산기 버튼들 -->
+        <div class="calculator">
+            <button class="num" data-value="1">1</button>
+            <button class="num" data-value="2">2</button>
+            <button class="num" data-value="3">3</button>
+            <button class="num" data-value="4">4</button>
+            <button class="num" data-value="5">5</button>
+            <button class="num" data-value="6">6</button>
+            <button class="num" data-value="7">7</button>
+            <button class="num" data-value="8">8</button>
+            <button class="num" data-value="9">9</button>
+            <button class="num" data-value="0">0</button>
+            <button class="clear">C</button>
+            <button class="submit" id="submitBtn">enter</button>
+        </div>
+
+        <!-- 틀린 비밀번호 알림 -->
+        <div id="errorMessage" class="error-message" style="display:none;">
+            Seriously?!
+        </div>
+    </div>
+
+    <div class="love_background">
+        <div id="chocolate_rains">
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="heart">
+              <div class="ring"></div>
+              <div class="inner">
+                <div class="regular">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+                <div class="reverse">
+                  <div class="movable">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

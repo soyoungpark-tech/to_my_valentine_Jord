@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤HOW LONG?❤ - 2PAGE</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/script.js">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="sec2_body">
+        <div class="sec_pic_cont">
+            <img src="/images/KakaoTalk_Image_2025-02-13-12-52-51_011.jpeg" alt="">
+        </div>
+        <div class="second-container">
+            <!-- <h1>How long have we been together?</h1> -->
+    
+            <!-- 몇일이 지났는지 표시하는 부분 -->
+            <div id="secondDaysPassed"></div>
+    
+            <!-- 일, 시, 분, 초 실시간 표시 -->
+            <div id="secondLiveTime">
+                <!-- <p>실시간으로 보여주는 시간:</p> -->
+                <div id="secondTime"></div>
+            </div>
+        </div>
+        <!-- 섹션3으로 이동하는 버튼 -->
+        <div class="sec2-button-container">
+            <a href="/sec3/dist/index.html" class="next-page-button">Our memories ⮕</a>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+    // 시작 날짜 (2023년 12월 12일)
+    const startDate = new Date('2023-12-12T00:00:00');
+
+    function updateTime() {
+        const currentDate = new Date();
+        const timeDifference = currentDate - startDate; // 밀리초 차이
+
+        // 날짜 차이 계산 (일 수로 변환)
+        const daysPassed = Math.floor(timeDifference / (1000 * 60 * 60 * 24)); // 일 단위로 계산
+
+        // 실시간 시간 계산 (시, 분, 초)
+        const hours = currentDate.getHours();
+        const minutes = currentDate.getMinutes();
+        const seconds = currentDate.getSeconds();
+
+        // 몇 일이 지났는지 표시
+        $('#secondDaysPassed').text(`We've been ${daysPassed} days together!`);
+
+        // 실시간 시간 표시 (일, 시, 분, 초)
+        $('#secondTime').text(`${hours} Hrs ${minutes} Mins ${seconds} Secs`);
+    }
+
+    // 1초마다 시간 갱신
+    setInterval(updateTime, 1000);
+
+    // 페이지 로드 시 한번 초기화
+    updateTime();
+});
+
+    </script>
+</body>
+</html>

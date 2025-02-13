@@ -1,0 +1,224 @@
+/* 폰트 적용 */
+@font-face {
+    font-family: 'HakgyoansimChilpanjiugaeTTF-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimChilpanjiugaeTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* 전체 배경 */
+body {
+    font-family: 'HakgyoansimChilpanjiugaeTTF-B', sans-serif; /* 폰트를 적용 */
+    margin: 0;
+    padding: 0;
+    background: #FFF0F5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://www.transparenttextures.com/patterns/heart.png'); /* 하트 무늬 배경 추가 */
+    background-repeat: repeat;
+}
+
+/* 사진 컨테이너 박스 */
+.pic_container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* 약간 투명한 배경 */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin-top: -50px;
+}
+.pic_container img {
+    width: 350px;
+}
+
+/* 컨테이너 박스 */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* 약간 투명한 배경 */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin-top: -50px;
+}
+
+/* 제목 스타일 */
+h1 {
+    color: #ff4d3b; /* 빨간색 */
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* 설명 텍스트 스타일 */
+p {
+    color: #ff6f61; /* 부드러운 분홍색 */
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* 비밀번호 입력창 */
+input {
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ff6f61;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    color: #ff6f61;
+    box-sizing: border-box;
+}
+
+/* placeholder 폰트 적용 */
+input::placeholder {
+    font-family: 'HakgyoansimChilpanjiugaeTTF-B', sans-serif; /* placeholder에 폰트 적용 */
+    color: #ff6f61; /* placeholder 텍스트 색상 */
+}
+
+/* 계산기 버튼들 */
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4d3b;
+}
+
+button:active {
+    background-color: #ff2a1e;
+}
+
+button.clear {
+    background-color: #ffdb58;
+    grid-column: span 2; /* 'C' 버튼은 두 칸을 차지 */
+}
+
+button.submit {
+    background-color: #4caf50; /* 확인 버튼은 초록색 */
+    grid-column: span 3; /* '확인' 버튼은 세 칸을 차지 */
+}
+
+/* 오류 메시지 스타일 */
+.error-message {
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/* falling heart */
+.github-btn{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 10px;
+    color: gray;
+    cursor: pointer;
+}
+.github-btn:hover {
+    color: magenta;
+}
+
+/* sec2 */
+/* 전체 배경 */
+#sec2_body {
+    font-family: 'HakgyoansimChilpanjiugaeTTF-B', sans-serif; /* 폰트 적용 */
+    margin: 0;
+    padding: 0;
+    background: #FFF0F5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-image: url('https://www.transparenttextures.com/patterns/heart.png'); /* 하트 무늬 배경 추가 */
+    background-repeat: repeat;
+    flex-wrap: wrap;
+}
+
+/* 두 번째 페이지 컨테이너 박스 */
+.sec_pic_cont {
+    margin: 30px 0;
+}
+.sec_pic_cont img {
+    width: 350px;
+}
+.second-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* 약간 투명한 배경 */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    /* margin-top: -50px; */
+}
+
+/* 제목 스타일 */
+.second-container h1 {
+    color: #ff4d3b; /* 빨간색 */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* 날짜와 시간이 표시될 부분 */
+#secondDaysPassed {
+    font-size: 1.5rem;
+    color: #ff6f61;
+    margin-bottom: 20px;
+}
+
+/* 실시간 시간 표시 */
+#secondLiveTime {
+    font-size: 1.3rem;
+    color: #ff4d3b;
+}
+
+/* 실시간 시간 표시되는 부분 */
+#secondTime {
+    font-size: 2rem;
+    color: #ff6f61;
+    font-weight: bold;
+}
+/* 버튼 스타일 */
+.sec2-button-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.next-page-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6f61; /* 예쁜 분홍색 */
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* 버튼 호버 시 효과 */
+.next-page-button:hover {
+    background-color: #ff4d3b; /* 어두운 분홍색 */
+    transform: scale(1.1); /* 크기 살짝 확대 */
+}
