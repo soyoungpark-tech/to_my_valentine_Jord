@@ -121,21 +121,16 @@ a:hover {
 
 .next-page-button {
   display: inline-block;
-  padding: 15px 30px;
+  padding: 5px 10px;
   background-color: #ff6f61; /* 예쁜 분홍색 */
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 13px;
   border-radius: 25px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 /* 버튼 호버 시 효과 */
-.next-page-button:hover {
-  background-color: #ff4d3b; /* 어두운 분홍색 */
-  transform: scale(1.1); /* 크기 살짝 확대 */
-}
-
 .sec3-button-container {
   margin-top: 30px;
   text-align: center;
@@ -151,4 +146,6 @@ h1 {
   margin-bottom: 10px;
   font-family: 'HakgyoansimChilpanjiugaeTTF-B', sans-serif; /* 폰트를 적용 */
   left: 6%;
+  position: absolute; 
+  top: 3%;
 }
