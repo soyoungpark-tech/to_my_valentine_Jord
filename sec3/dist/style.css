@@ -152,12 +152,12 @@ a:hover {
 /* 제목 스타일 */
 h1 {
   color: #ff4d3b; /* 빨간색 */
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
   font-family: 'HakgyoansimChilpanjiugaeTTF-B', sans-serif; /* 폰트를 적용 */
   /* left: 6%;
   position: absolute; 
   top: 3%; */
   text-align: center;
-  margin-top: 0;
+  margin-top: 10px;
 }

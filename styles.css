@@ -192,7 +192,7 @@ button.submit {
 
 /* 날짜와 시간이 표시될 부분 */
 #secondDaysPassed {
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: #ff6f61;
     margin-bottom: 20px;
 }
@@ -211,7 +211,7 @@ button.submit {
 }
 /* 버튼 스타일 */
 .sec2-button-container {
-    margin-top: 30px;
+    margin-top: 15px;
     text-align: center;
 }
 
@@ -233,7 +233,7 @@ button.submit {
 }
 
 .sec3-button-container {
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
     position: absolute;
     bottom: 13%;
