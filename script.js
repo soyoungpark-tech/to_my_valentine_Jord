@@ -24,7 +24,7 @@ $(document).ready(function() {
 
         if (enteredPassword === correctPassword) {
             // 비밀번호가 맞으면 페이지 전환
-            window.location.href = "/pages/section1.html";  // 다른 페이지로 이동 (예: nextpage.html)
+            window.location.href = "/to_my_valentine_Jord/section1.html";  // 다른 페이지로 이동 (예: nextpage.html)
         } else {
             // 비밀번호가 틀리면 오류 메시지 표시하고 입력 필드 초기화
             $('#errorMessage').show();
